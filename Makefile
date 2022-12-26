@@ -9,6 +9,9 @@ TARGET=Hello3Re
 #	$(CC) -o $@ $(OBJS)
 # clean:
 # 	rm -f *.o Hello3Re
+init1:
+	touch Makefile.am
+	autoscan
 check:
 	ls -l
 # if [test]:

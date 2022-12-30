@@ -12,6 +12,9 @@ TARGET=Hello3Re
 init1:
 	touch Makefile.am
 	autoscan
+	automake --version
+	swift -v
+	go -v
 check:
 	ls -l
 # if [test]:

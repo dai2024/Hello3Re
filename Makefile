@@ -12,16 +12,7 @@ TARGET=Hello3Re
 init1:
 #	touch Makefile.am
 #	autoscan
-#	automake --version
-#	swift -v
-#	go version
-#	cc -v
-#	cc1 -v
-#	cc2 -v
-#	clang -v
-#	zig -v
-#	rustc -v
-	man -k man | grep man
+
 check:
 	ls -l
 # if [test]:

@@ -20,7 +20,8 @@ init1:
 #	cc2 -v
 #	clang -v
 #	zig -v
-	rustc -v
+#	rustc -v
+	man man
 check:
 	ls -l
 # if [test]:

@@ -19,7 +19,8 @@ init1:
 #	cc1 -v
 #	cc2 -v
 #	clang -v
-	zig -v
+#	zig -v
+	rustc -v
 check:
 	ls -l
 # if [test]:

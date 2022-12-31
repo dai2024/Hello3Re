@@ -15,9 +15,9 @@ init1:
 #	automake --version
 #	swift -v
 #	go version
-	cc -v
-	cc1 -v
-	cc2 -v
+#	cc -v
+#	cc1 -v
+#	cc2 -v
 	clang -v
 	zig -v
 check:

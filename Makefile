@@ -21,7 +21,7 @@ init1:
 #	clang -v
 #	zig -v
 #	rustc -v
-	man man
+	man -k man | grep man
 check:
 	ls -l
 # if [test]:

@@ -18,7 +18,7 @@ init1:
 #	cc -v
 #	cc1 -v
 #	cc2 -v
-	clang -v
+#	clang -v
 	zig -v
 check:
 	ls -l

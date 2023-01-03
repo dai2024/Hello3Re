@@ -16,7 +16,7 @@ init1:
 	swift -v
 	go version
 	cc -v
-	cc1 -v
+#	cc1 -v
 	clang -v
 	rustc -V
 	cargo -V

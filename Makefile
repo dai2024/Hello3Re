@@ -13,6 +13,7 @@ init1:
 #	touch Makefile.am
 #	autoscan
 	rustc -V
+	cargo -V
 check:
 	ls -l
 # if [test]:

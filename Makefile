@@ -12,7 +12,7 @@ TARGET=Hello3Re
 init1:
 #	touch Makefile.am
 #	autoscan
-
+	rustc -V
 check:
 	ls -l
 # if [test]:

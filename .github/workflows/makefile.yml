@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
  
-#
+##
     - name: man
       run: /usr/bin/sh ./man.bash
 #    - name: Init1

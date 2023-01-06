@@ -6,6 +6,10 @@
 # man -k mule
 # man -k set
 # set -e
+set | grep history
+mkdir -m 700 test700
+cd test700
+ls -al
 touch readme.md
 ls -al
 chmod 666 readme.md

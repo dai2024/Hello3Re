@@ -13,6 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+# trigger
     - name: man1
       run: /usr/bin/sh ./man1.bash
 #    - name: configure

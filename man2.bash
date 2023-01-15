@@ -8,5 +8,5 @@ chmod 666 readme.md
 ls -al
 echo "!" >> readme.md
 cat readme.md
-od -t c readme.md
+od -t x readme.md
 echo "Hello, world!"

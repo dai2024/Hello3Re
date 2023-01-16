@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set | grep history
-mkdir -m 700 test700 && cd test700
+mkdir test && cd test
 echo -n '!"#$%&'"'"'()' | xxd > hello3.dump
 ls hello3.dump && cat hello3.dump
 sed 's/!/~/' hello3.dump > hello3.c

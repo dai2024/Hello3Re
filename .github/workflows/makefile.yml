@@ -16,7 +16,8 @@ jobs:
  
 ##
     - name: man
-      run: /usr/bin/sh ./man.bash
+##    run: /usr/bin/sh ./man.bash
+      run: /usr/bin/sh ./man3.bash
 #    - name: Init1
 #      run: make init1
 #    - name: configure
